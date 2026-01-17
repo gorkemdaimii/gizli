@@ -7,7 +7,7 @@
 
 <style>
 :root{
-  --bg:#07080c;
+  --bg:#020064;
   --fg:#eaeaf0;
   --soft:rgba(234,234,240,.45);
 }
@@ -187,7 +187,7 @@ document.addEventListener('mousemove', e=>{
 
   if(step === words.length){
     const elapsed = (Date.now() - start)/1000;
-    if(elapsed > 30){
+    if(elapsed > 10){
       revealFinal();
     }
   }
